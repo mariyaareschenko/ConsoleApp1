@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{EA88BE2E-178F-47C2-BAEC-F4475AA9F4DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "ConsoleApp1\Lab1.csproj", "{EA88BE2E-178F-47C2-BAEC-F4475AA9F4DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassTasks", "ClassTasks\ClassTasks.csproj", "{13E85619-06AE-414A-A91E-BE3296B382C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{EA88BE2E-178F-47C2-BAEC-F4475AA9F4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA88BE2E-178F-47C2-BAEC-F4475AA9F4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA88BE2E-178F-47C2-BAEC-F4475AA9F4DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E85619-06AE-414A-A91E-BE3296B382C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E85619-06AE-414A-A91E-BE3296B382C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E85619-06AE-414A-A91E-BE3296B382C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E85619-06AE-414A-A91E-BE3296B382C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
