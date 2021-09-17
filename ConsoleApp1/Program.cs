@@ -23,6 +23,21 @@ namespace Lab1
             else
                 Console.WriteLine("Ошибка");
 
+            Console.WriteLine("Задание 2.1");
+            char symbol = Console.ReadKey().KeyChar;
+            char letter = char.ToLower(symbol);
+            char next_sybol;
+            if (letter == 'z')
+            {
+                next_sybol = 'a';
+            }
+            else
+            {
+                next_sybol = (char)(((int)letter) + 1);
+            }
+            Console.WriteLine();
+            Console.WriteLine(next_sybol);
+
             Console.WriteLine("Задание 2.2");
             double a = Convert.ToDouble(Console.ReadLine());
             double b = Convert.ToDouble(Console.ReadLine());
